@@ -10,6 +10,7 @@ from langchain.memory import ConversationBufferMemory
 from flask_cors import CORS
 
 ## updated langchain folder with custom prompts and custom chains
+os.environ.setdefault("OPENAI_API_KEY", "your-api-key")
 
 app = Flask(__name__)
 CORS(app)
