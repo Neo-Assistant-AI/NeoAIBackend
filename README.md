@@ -25,10 +25,10 @@ To get started with NeoAI Assistant Backend, follow these steps:
     cd neo-ai-backend
     pip3 install -r ./requirements.txt
     ```
-2. **Add Open AI API Key**: Update your openAI api key in the code.
-  ```bash
-  os.environ.setdefault("OPENAI_API_KEY", "your-api-key")
-  ```
+2. **API Keys**: Add your OpenAI API Key in the code.
+    ```bash
+    os.environ.setdefault("OPENAI_API_KEY", "your-api-key")
+    ```
 3. **Run the Server**: Start the backend server.
 
     ```bash
